@@ -49,5 +49,6 @@ void nes_hal_init();
 
 // query key-press status
 int nes_key_state(int b);
+int nes_joy_state(int b);
 
 #endif
